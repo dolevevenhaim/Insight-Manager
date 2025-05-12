@@ -1,23 +1,80 @@
-# Insight Manager
-A lightweight system to manage insights and ideas – powered by Python, OOP, JSON storage, CLI commands, and (soon) a REST API.
+# 💡 Insight Manager CLI
 
+A command-line tool for managing personal or team insights with support for search, sort, update, and JSON persistence.
 
+## 🚀 Features
 
-## ✨ About the Project
-**Insight Manager** is a personal knowledge management tool designed to help you capture, search, update, and organize insights gathered from conversations, articles, emails, or AI tools (like ChatGPT). The project emphasizes Object-Oriented Design, clean architecture, and a modular codebase.
+* Add, list, delete, and update insights
+* Search insights by title or content
+* Sort insights by creation date
+* Save insights to a local JSON file
+* Clean OOP architecture
+* Ready to extend into an API (FastAPI)
 
+## 🛠️ Technologies
 
-## 🛠️ Technologies Used
-- Python 3.10+
-- Typer (CLI Framework)
-- JSON as a lightweight database
-- FastAPI (coming soon)
-- OOP principles and clean design
+* Python 3.10+
+* Typer (CLI framework)
+* JSON (for persistence)
+* OOP (Object-Oriented Design)
 
+## ⚙️ How to Run
 
-## 📁 Project Structure
-insight-manager/
-- manager.py # Insight classes and core logic (add, update, search)
-- cli.py # CLI interface using Typer
-- insights.json # JSON file storing all insights
-- README.md # Project documentation
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/insight-manager.git
+cd insight-manager
+```
+
+2. Install dependencies:
+
+```bash
+pip install typer[all]
+```
+
+3. Run commands via CLI:
+
+```bash
+python main.py --help
+```
+
+## 📦 CLI Examples
+
+Add a new insight:
+
+```bash
+python main.py add-insight --title "My Insight" --subtitle "Quick Note" --content "This is the content"
+```
+
+List insights:
+
+```bash
+python main.py list-insights-cli
+```
+
+Delete insight by ID:
+
+```bash
+python main.py delete-insight 2
+```
+
+Search by title:
+
+```bash
+python main.py search-by-title "keyword"
+```
+
+Sort by date:
+
+```bash
+python main.py sort-by-date --limit 5
+```
+
+## 👤 Author
+
+Dolev — Data Analyst & aspiring Product Manager
+
+## 🪪 License
+
+MIT
