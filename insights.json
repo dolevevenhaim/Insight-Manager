@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "title": "First insight title",
+        "subtitle": "subtitle",
+        "content": "lorem ipsum",
+        "tags": [],
+        "date": "2025-05-10",
+        "connections": []
+    },
+    {
+        "id": 2,
+        "title": "update insight title",
+        "subtitle": "subtitle",
+        "content": "lorem ipsum",
+        "tags": [],
+        "date": "2025-05-10",
+        "connections": []
+    },
+    {
+        "id": 3,
+        "title": "Third title",
+        "subtitle": "subtitle",
+        "content": "lorem ipsum",
+        "tags": [],
+        "date": "2025-05-11",
+        "connections": []
+    },
+    {
+        "id": 4,
+        "title": " fourth insight",
+        "subtitle": "subtitle for 4 title",
+        "content": "this is my main content for now",
+        "tags": [],
+        "date": "2025-05-11",
+        "connections": []
+    }
+]
