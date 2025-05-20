@@ -2,7 +2,7 @@
 
 A command-line tool for managing personal or team insights with support for search, sort, update, and JSON persistence.
 
-## 🚀 Features
+## Features
 
 * Add, list, delete, and update insights
 * Search insights by title or content
@@ -11,14 +11,14 @@ A command-line tool for managing personal or team insights with support for sear
 * Clean OOP architecture
 * Ready to extend into an API (FastAPI)
 
-## 🛠️ Technologies
+## Technologies
 
 * Python 3.10+
 * Typer (CLI framework)
 * JSON (for persistence)
 * OOP (Object-Oriented Design)
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -39,7 +39,9 @@ pip install typer[all]
 python main.py --help
 ```
 
-## 📦 CLI Examples
+4. Run API via Postman or Localhost
+
+## CLI Examples
 
 Add a new insight:
 
@@ -71,10 +73,10 @@ Sort by date:
 python main.py sort-by-date --limit 5
 ```
 
-## 👤 Author
+## Author
 
 Dolev — Data Analyst & aspiring Product Manager
 
-## 🪪 License
+## License
 
 MIT
